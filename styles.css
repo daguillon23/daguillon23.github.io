@@ -1,19 +1,22 @@
-div.headers {
-    position: relative;
-    left: 2em;
+a.link {
+    color:wheat;
+    text-decoration: underline;
+}
+
+div.header {
+    margin: 2em;
     font-family: "Courier New", "Lucida Console", monospace;
     color: wheat;
 }
 
 h1 {
     font-size: 3em;
-
 }
 
 h2 {
-    text-decoration: underline;
     font-size: 2em;
 }
+
 
 body {
     background-image: url('assets/images/goat.JPG');
