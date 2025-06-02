@@ -1,5 +1,6 @@
 div.gen {
     padding-left: 2em;
+    padding-right: 2em;
     font-family: "Courier New", "Lucida Console", monospace;
     color: wheat;
 }
@@ -21,18 +22,19 @@ a.header {
 
 #title {
     font-size: 3em;
+    display: inline-block;
 }
 
 #link {
     font-size: 2em;
-    display: inline-block;
     padding-left: 1.5em;
+    float: right;
 }
 
 #text {
     font-size: 1.5em;
     padding-left: 1.5em;
-    max-width: 10em;
+    background: rgba(0, 0, 0, 0.3);
 }
 
 body {
