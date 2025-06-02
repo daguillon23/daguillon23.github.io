@@ -5,6 +5,11 @@ div.header {
     font-weight: bold;
 }
 
+div.links {
+    display: inline-block;
+    margin: 1.5em;
+}
+
 a.header {
     font-family: "Courier New", "Lucida Console", monospace;
     color: wheat;
@@ -22,7 +27,7 @@ a.header {
 }
 
 #text {
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 
