@@ -36,6 +36,7 @@ a.header {
     font-size: 1.5em;
     padding-left: 1.5em;
     background: rgba(0, 0, 0, 0.3);
+    background-position: 2em, 0em;
 }
 
 body {
