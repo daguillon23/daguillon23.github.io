@@ -1,0 +1,11 @@
+h1 {
+    font-family: "Courier New", "Lucida Console", monospace;
+    color: wheat;
+}
+
+body {
+    background-image: url('assets/images/goat.JPG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
