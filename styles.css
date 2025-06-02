@@ -20,11 +20,12 @@ a.header {
 #link {
     font-size: 2em;
     display: inline-block;
-    margin: 1.5em;
+    padding-left: 1.5em;
 }
 
 #text {
     font-size: 1.5em;
+    padding-left: 1.5em;
 }
 
 
