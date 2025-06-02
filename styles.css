@@ -1,20 +1,27 @@
-#header {
+div.header {
     margin: 2em;
     font-family: "Courier New", "Lucida Console", monospace;
     color: wheat;
+    font-weight: bold;
 }
 
-#header .h1 {
+a.header {
+    font-family: "Courier New", "Lucida Console", monospace;
+    color: wheat;
+    font-weight: bold;
+}
+
+#title {
     font-size: 3em;
 }
 
 
-#header .h2 {
+#link {
     font-size: 2em;
     text-decoration: underline;
 }
 
-#header .h3 {
+#text {
     font-size: 1em;
 }
 
