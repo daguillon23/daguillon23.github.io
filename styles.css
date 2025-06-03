@@ -32,7 +32,6 @@ img.image {
 #sub {
     font-size: 2.5em;
     padding-top: 0.5em;
-    display: inline-block;
 }
 
 
@@ -47,7 +46,6 @@ img.image {
     font-size: 1.5em;
     padding-left: 1.5em;
     padding-right: 1.5em;
-    display: inline-block;
 }
 
 #contact {
@@ -59,6 +57,7 @@ img.image {
     width: 30%;
     margin: 1em;
     display: inline-block;
+    float: left;
 }
 
 body {
