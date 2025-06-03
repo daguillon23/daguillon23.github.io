@@ -47,7 +47,7 @@ img.image {
 #link {
     font-size: 2em;
     padding-left: 1.5em;
-    padding-right: 1em;
+    padding-right: 0.5em;
     float: right;
 }
 
@@ -64,13 +64,15 @@ img.image {
 
 #headshot {
     width: 30%;
+    position: absolute;
     float: left;
     padding-top: 1em;
     padding-right: 1em;
 }
 
 #adobe {
-    width: 30%;
+    width: 45%;
+    position: absolute;
     float: right;
     padding-left: 1em;
 }
