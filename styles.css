@@ -20,6 +20,10 @@ a.header {
     text-decoration: underline;
 }
 
+img.image {
+    width: 100%
+}
+
 #title {
     font-size: 3em;
     display: inline-block;
@@ -46,8 +50,11 @@ a.header {
 
 #contact {
     font-size: 2em;
-    margin: 2em;
     padding-bottom: 2em;
+}
+
+#headshot {
+    border-radius: 1em 3em;
 }
 
 html, body, #wrapper {
@@ -67,4 +74,5 @@ body {
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto;
 }
