@@ -62,24 +62,25 @@ img.image {
 #headshot {
     width: 30%;
     float: left;
-    padding-top: 0.5em;
-    padding-right: 0.5em;
+    padding-top: 1em;
+    padding-right: 1em;
 }
 
-body {
+html {
     background-image: url('assets/images/goat.JPG');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
-#wrapper {
+body {
     background-attachment: fixed;
     background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    
     min-width: 100vw;
     min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    overflow: hidden;
+
+    width: 100%;
+    height: auto;
 }
