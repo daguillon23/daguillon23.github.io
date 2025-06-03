@@ -61,7 +61,6 @@ img.image {
 
 #headshot {
     width: 30%;
-    margin: 1em;
     float: left;
 }
 
@@ -78,4 +77,5 @@ body {
     min-width: 100vh;
     min-height: 100vh;
     background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
 }
