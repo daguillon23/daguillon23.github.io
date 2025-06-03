@@ -13,6 +13,7 @@ div.about {
 
 div.header {
     padding-left: 2em;
+    padding-right: 2em;
     padding-top: 2.5em;
     font-family: "Courier New", "Lucida Console", monospace;
     color: wheat;
@@ -67,6 +68,13 @@ img.image {
     padding-top: 1em;
     padding-right: 1em;
 }
+
+#adobe {
+    width: 30%;
+    float: right;
+    padding-left: 1em;
+}
+
 
 html {
     background-image: url('assets/images/goat.JPG');
