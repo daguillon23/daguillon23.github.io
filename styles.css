@@ -25,22 +25,40 @@ a.header {
     display: inline-block;
 }
 
+#sub {
+    font-size: 2.5em;
+    padding-top: 0.5em;
+}
+
 
 #link {
     font-size: 2em;
     padding-left: 1.5em;
+    padding-right: 1.5em;
     float: right;
 }
 
 #text {
     font-size: 1.5em;
     padding-left: 1.5em;
+    padding-right: 1.5em;
 }
 
-body {
+#contact {
+    font-size: 2em;
+    
+}
+
+html, body, #wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+#wrapper {
     background-image: url('assets/images/goat.JPG');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+    overflow: auto;
 }
