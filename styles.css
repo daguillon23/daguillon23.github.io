@@ -50,11 +50,12 @@ img.image {
 
 #contact {
     font-size: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
 #headshot {
     border-radius: 1em 3em;
+    width: 33%;
 }
 
 html, body, #wrapper {
@@ -71,8 +72,9 @@ body {
 
 #wrapper {
     position: absolute;
+    background-attachment: fixed;
+    background-size: cover;
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    overflow: auto;
 }
