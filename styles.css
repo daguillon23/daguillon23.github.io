@@ -20,6 +20,11 @@ div.header {
     font-weight: bold;
 }
 
+a.project {
+    font-family: "Courier New", "Lucida Console", monospace;
+    color: wheat;
+    font-weight: bold;
+}
 
 a.header {
     font-family: "Courier New", "Lucida Console", monospace;
