@@ -74,7 +74,7 @@ img.image {
     float: left;
     padding-top: 1em;
     padding-right: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
 }
 
 #adobe {
@@ -93,5 +93,13 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+    /* box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6); */
+}
+
+html::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
 }
