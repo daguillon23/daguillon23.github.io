@@ -66,6 +66,7 @@ img.image {
 #contact {
     font-size: 2em;
     padding-bottom: 1em;
+    display: block;
 }
 
 #headshot {
@@ -73,12 +74,14 @@ img.image {
     float: left;
     padding-top: 1em;
     padding-right: 1em;
+    padding-bottom: 1.5em;
 }
 
 #adobe {
     width: 45%;
     float: right;
     padding-left: 1em;
+    display: block;
 }
 
 
