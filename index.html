@@ -21,6 +21,16 @@
                     <div id="sub">projects</div>
                     <br>
                     <br>
+                    <a class="project">
+                        modular deep-learning framework & cnn classifier (april 2026):
+                    </a>
+                    <ul>
+                        <li>built modular deep learning framework from scratch using NumPy matrix operations to implement fully-connected layers and ReLU activations</li>
+                        <li>implemented numerically stable Softmax loss function utilizing max-subtraction optimization logic to prevent floating-point errors</li>
+                        <li>mapped custom computational graphs to execute manual forward and backward matrix calculus passes validated via numerical gradient checks</li>
+                        <li>architected custom PyTorch Convolutional Neural Network (CNN), tuning hyperparameters to achieve over 85% image classification accuracy</li>
+                    </ul>
+                    <br>
                     <a class="project" href="https://github.com/daguillon23/ez-yt" target="_blank" rel="noopener noreferrer">
                         ez-yt (march 2026):
                     </a>
@@ -29,76 +39,86 @@
                         <li>automated MP3 formatting conducive to Beets autotagging with MusicBrainz ID entrance</li>
                     </ul>
                     <br>
-                    <a class="project" href="https://github.com/PotatoesDuck/AudioAudit" target="_blank" rel="noopener noreferrer">
-                        audio audit (january 2026 - present):
+                    <a class="project">
+                        geometric computer vision engine (march 2026):
                     </a>
                     <ul>
-                        <li>engineered social app for sharing music tastes in Swift via Xcode and storyboards</li>
+                        <li>formulated least-squares optimization matrices to estimate 2D Affine and Homography transformation tensors from coordinate correspondences</li>
+                        <li>engineered robust feature-matching pipeline utilizing AKAZE descriptors, optimized pairwise L2 vector distances, and Lowe's ratio test</li>
+                        <li>programmed custom RANSAC loop to iteratively discard geometric outliers and dynamically re-fit the optimal perspective projection matrix</li>
+                        <li>leveraged perspective warping to rectify skewed images into fronto-parallel planes and inject textures seamlessly into 3D scenes</li>
+                    </ul>
+                    <br>
+                    <a class="project">
+                        audio audit (january 2026 - may 2026):
+                    </a>
+                    <ul>
+                        <li>engineered music-centered social app in Swift via Xcode</li>
                         <li>implemented user account login and registration via FirebaseAuth</li>
-                        <li>programmed user profile page with swiping tab to display user posts and "mentioned in" posts</li>
-                        <li>provided user upload functionality via Photo Library framework</li>
+                        <li>led overall UI design and programmed splash screen and user profile page</li>
+                        <li>developed frontend logic for quiz, map, and home pages</li>
+                        <li>developed backend for user avatar functionality via FirebaseStorage</li>
                     </ul>
                     <br>
                     <a class="project" href="https://github.com/daguillon23/mlt" target="_blank" rel="noopener noreferrer">
-                        generative ai partner (july 2025 - august 2025):
+                        generative AI partner (july 2025 - august 2025):
                     </a>
                     <ul>
                         <li>developed Python module that extracts public financial data on 12K+ companies from SEC’s EDGAR system</li>
                         <li>integrated with EDGAR API to parse 500K+ records for quarterly (10-Q) and yearly (10-K) financial reviews</li>
-                        <li>automated daily extraction of EDGAR fiscal records with AWS Lambda and Amazon EventBridge.</li>
-                        <li>integrated with Amazon Bedrock API to train Claude AI to relay public financial information upon user request.</li>
+                        <li>automated daily extraction of EDGAR fiscal records with AWS Lambda and Amazon EventBridge</li>
+                        <li>integrated Amazon Bedrock and Claude AI to parse and relay public financial information</li>
                     </ul>
                     <br>
                     <a class="project">virtual operating system kernel (jan 2025 - may 2025):</a>
                     <ul>
                         <li>built virtual kernel for cooperative and preemptive multithreaded
-                            operating systems emulated by QEMU in C++ and x86 assembly.</li>
+                            operating systems emulated by QEMU in C++ and x86 assembly</li>
                         <li>implemented Ext2 file system capable of traversing directories 
-                            and interpreting files and symbolic links.</li>
+                            and interpreting files and symbolic links</li>
                         <li>included virtual memory functionality to allow for creation and
-                            maintenance of user processes.</li>
+                            maintenance of user processes</li>
                         <li>simulated PS/2 keyboard and mouse drivers through utilization of
-                            QEMU-emulated PS/2 controller, allowing for interpretation of user input.</li>
+                            QEMU-emulated PS/2 controller, allowing for interpretation of user input</li>
                     </ul>
                     <br>
                     <a class="project">instruction pipeline emulator (nov 2024 - dec 2024): </a>
                     <ul>
                         <li>simulated five-stage processor pipeline for virtual central processing unit in
-                            C and ARM64 assembly.</li>
+                            C and ARM64 assembly</li>
                         <li>implemented emulation of necessary hardware including arithmetic logic unit
-                            and general purpose registers.</li>
+                            and general purpose registers</li>
                         <li>implemented core functionality that fetches, decodes, and executes computer instructions;
-                            accesses memory; and writes back to pertinent general purpose registers.</li>
+                            accesses memory; and writes back to pertinent general-purpose registers</li>
                         <li>enabled branch prediction via implementation of instruction forwarding and 
-                    hazard control.</li>
+                    hazard control</li>
                     </ul>
                     <br>
                     <a class="project">dynamic memory allocator (oct 2024):</a>
                     <ul>
-                        <li>simulated heap memory allocation in C and ARM64 assembly. </li>
-                        <li>implemented worst-fit free block list ordering.</li>
-                        <li>improved throughput and space utilization by 50% by implementing first-fit list ordering.</li>
+                        <li>simulated heap memory allocation in C and ARM64 assembly</li>
+                        <li>implemented worst-fit free block list ordering</li>
+                        <li>improved throughput and space utilization by 50% by implementing first-fit list ordering</li>
                         <li>included heap consistency checker to ensure stability of programs and prevent 
-                    memory leakage.</li>
+                    memory leakage</li>
                     </ul>
                     <br>
                     <a class="project">command interpreter (sept 2024):</a>
                     <ul>
-                        <li>developed command interpreter in C.</li> 
+                        <li>developed command interpreter in C</li> 
                         <li>included functionality 
-                        for unary, binary, and ternary expressions in custom expression evaluation language.</li> 
+                        for unary, binary, and ternary expressions in custom expression evaluation language</li> 
                         <li>implemented tokenization of user input capable of interpreting integers, 
-                        booleans, strings, and variables. </li>
+                        booleans, strings, and variables</li>
                         <li>included error handling for lexical, syntactic, type inference, 
-                        and evaluation errors.</li>                        
+                        and evaluation errors</li>                        
                     </ul>
                     <br>
                     <a class="project">huffman file compressor (apr 2024): </a>
                     <ul>
-                        <li>developed logic for file compression in Java.</li>
-                        <li>utilized Huffman codes to compress and decompress files of any type.</li>
-                        <li>included array-based and 
-                    tree-based compression formats.</li>
+                        <li>developed logic for file compression in Java</li>
+                        <li>utilized Huffman codes to compress and decompress files of any type</li>
+                        <li>included array-based and tree-based compression formats</li>
                     </ul> 
                 </div>
             </div>
